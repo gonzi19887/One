@@ -7,9 +7,28 @@ body{
 }
 
 .tituloPrincipal{
-    color: rgb(12, 34, 82);
+    color: #0c2252;
     padding-left: 30px;
+    width: 40%;
 }
+
+nav{
+    text-align: right;
+    width: 30%;
+}
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #0c2252;
+    font-weight: bolder;
+    font-size: 22px;
+    text-decoration: none;
+}
+
 
 .principal{
     background: #DDDDDD;
