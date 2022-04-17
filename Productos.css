@@ -1,14 +1,15 @@
 header {
     background-color: #EEEEEE;
+    padding: 20px 0;
 }
 
-.caja{
-    margin: 0 auto;
+.Caja{
     position: relative;
     width: 940px;
+    margin: 0 auto;
 }
 
-nav{
+nav {
     position: absolute;
     top: 110px;
     right: 0;
