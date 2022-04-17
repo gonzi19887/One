@@ -12,7 +12,7 @@ header {
 nav {
     position: absolute;
     top: 110px;
-    right: 0;
+    right: 1%;
 }
 
 nav li {
@@ -27,4 +27,30 @@ nav a {
     font-size: 22px;
     text-decoration: none;
 }
+.productos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
 
+.productos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+}
+
+.productos h2{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.descripcion-producto{
+    font-size: 18px;
+}
+.precio-producto{
+    font-size: 22px;
+    font-weight: bolder;
+    margin-top: 10px;
+
+}
