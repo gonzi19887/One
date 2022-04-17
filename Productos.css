@@ -34,6 +34,8 @@ nav a {
 }
 
 .productos li{
+    border: 5px solid #091a3d;
+    border-radius: 20px;
     box-sizing: border-box;
     display: inline-block;
     margin: 0 1.5%;
