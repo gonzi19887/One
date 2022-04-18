@@ -3,13 +3,11 @@ body{
 }
 
 .Caja{
-    position: relative;
     width: 940px;
     margin: 0 auto;
 }
 
 nav {
-    position: absolute;
     top: 110px;
     right: 1%;
 }
@@ -37,6 +35,7 @@ nav a:hover{
 
 .tituloPrincipal{
     color: #0c2252;
+    display: inline;
     padding-left: 30px;
     width: 40%;
 }
