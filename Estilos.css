@@ -2,6 +2,34 @@ body{
     background-color: #CCCCCC;
 }
 
+.Caja{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 1%;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #0c2252;
+    font-weight: bolder;
+    font-size: 22px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #AAAAAA;
+    text-decoration: underline #0c2252;
+}
 #banner{
     width: 100%;
 }
