@@ -34,7 +34,12 @@
     
     }
 
-    imprimir("El promedio del IMC de Cristian y Oscar es: " + (calcularImc(74,1.69)+calcularImc(72,1.69))/2); 
+    nombre = prompt("¿Cual es tu nombre?")
+    pesoInformado = prompt(nombre + " ¿cual es tu peso?")
+    alturaInformada = prompt(nombre + "¿Cual es tu altura?")
+    imcCalculado = calcularImc(pesoInformado,alturaInformada)
+
+    imprimir(nombre + " tu IMC es: " + imcCalculado); 
   
 </script>
 
