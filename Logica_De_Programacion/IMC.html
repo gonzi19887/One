@@ -12,32 +12,29 @@
 </body>
 <script>
 
-  function saltarlinea() {
-    //Saltando cinco lineas
+    function saltarlinea() {
+            //Saltando cinco lineas
+            
+        document.write("<br>");
+        document.write("<br>");
+        document.write("<br>");
+
+    } 
+
+    function imprimir(frase) {
+            
+        document.write("<big>"+ frase +"</big>");
+        saltarlinea();
+
+    }
+
+    function calcularImc(peso,altura,nombre) {
+
+        return peso / (altura * altura);
     
-    document.write("<br>");
-    document.write("<br>");
-    document.write("<br>");
+    }
 
-  } 
-
-  function imprimir(frase) {
-    
-    document.write("<big>"+ frase +"</big>");
-    saltarlinea();
-
-  }
-
-  function calcularImc(peso,altura,nombre) {
-
-    imc = peso / (altura * altura);
-    imprimir("El IMC de " + nombre +  " es: " + imc);
-
-  }
-
-  calcularImc(74,1.69,"Cristian");
-  calcularImc(72,1.69,"Oscar");
-
+    imprimir("El promedio del IMC de Cristian y Oscar es: " + (calcularImc(74,1.69)+calcularImc(72,1.69))/2); 
   
 </script>
 
