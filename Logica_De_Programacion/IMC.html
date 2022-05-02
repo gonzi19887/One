@@ -15,9 +15,9 @@
   function saltarlinea() {
     //Saltando cinco lineas
     
-    document.write("<hr>");
-    document.write("<hr>");
-    document.write("<hr>");
+    document.write("<br>");
+    document.write("<br>");
+    document.write("<br>");
 
   } 
 
@@ -28,12 +28,15 @@
 
   }
 
-  pesoCristian = 74
-  alturaCristian = 1.69
-  imcCristian = pesoCristian / (alturaCristian  * alturaCristian)
+  function calcularImc(peso,altura,nombre) {
 
-  imprimir("El IMC de cristian es: " + imcCristian)
-  
+    imc = peso / (altura * altura);
+    imprimir("El IMC de " + nombre +  " es: " + imc);
+
+  }
+
+  calcularImc(74,1.69,"Cristian");
+  calcularImc(72,1.69,"Oscar");
 
   
 </script>
