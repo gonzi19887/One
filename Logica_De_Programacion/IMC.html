@@ -34,13 +34,32 @@
     
     }
 
-    nombre = prompt("¿Cual es tu nombre?")
-    pesoInformado = prompt(nombre + " ¿cual es tu peso?")
-    alturaInformada = prompt(nombre + "¿Cual es tu altura?")
-    imcCalculado = calcularImc(pesoInformado,alturaInformada)
+    nombre = prompt("¿Cual es tu nombre?");
+    pesoInformado = prompt(nombre + " ¿cual es tu peso?");
+    alturaInformada = prompt(nombre + "¿Cual es tu altura?");
+    imcCalculado = calcularImc(pesoInformado,alturaInformada);
 
     imprimir(nombre + " tu IMC es: " + imcCalculado); 
-  
+
+    if (imcCalculado < 18.5){
+      imprimir("Tu IMC abajo de lo recomendado");
+    }
+
+    if (imcCalculado >= 18.5){
+      if(imcCalculado < 25){
+        imprimir("Tu IMC abajo de lo recomendado");
+      }
+    }
+
+    if (imcCalculado >= 25){
+      if(imcCalculado < 30){
+        imprimir("Tu IMC considerado como sobrepeso");
+      }
+    } 
+
+    if(imcCalculado >= 30){
+      imprimir("Tu IMC considerado como obesidad")
+    }
 </script>
 
 </html>
