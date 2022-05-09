@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>programación</title>
+</head>
+
+<body>
+  <h1>Adivina el numero</h1>
+</body>
+<script>
+
+    function saltarlinea() {
+            //Saltando cinco lineas
+            
+        document.write("<br>");
+        document.write("<br>");
+        document.write("<br>");
+
+    } 
+
+    function imprimir(frase) {
+            
+        document.write("<big>"+ frase +"</big>");
+        saltarlinea();
+
+    }
+
+    var numeroSistema = Math.round(Math.random()*10);
+    var numeroUsuario = parseInt(prompt("Ingresa un numero 0 - 10"));
+
+    if(numeroSistema == numeroUsuario){
+
+        imprimir("Has Acertado");
+
+    }
+
+    else
+    {
+
+        imprimir("Has errado; el numero del sistema era " + numeroSistema);
+
+    }
+    
+</script>
+
+</html>
