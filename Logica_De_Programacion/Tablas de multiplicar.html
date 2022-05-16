@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>programación</title>
+</head>
+
+<body>
+  <h1>Vamos a calcular la tabla de multiplicar </h1>
+</body>
+<script>
+
+    function saltarlinea() {
+            //Saltando cinco lineas
+            
+        document.write("<br>");
+        document.write("<br>");
+        document.write("<br>");
+
+    } 
+
+    function imprimir(frase) {
+            
+        document.write("<big>"+ frase +"</big>");
+        saltarlinea();
+
+    }
+
+    var numerador = parseInt(prompt("Ingrese el numero de la tabla que quiere mostrar"));
+
+    var multiplicador = 1;
+
+    while(multiplicador <= 10) {
+
+        imprimir( numerador * multiplicador);
+
+        multiplicador = multiplicador + 1;
+    }
+
+
+
+
+    
+</script>
+
+</html>
