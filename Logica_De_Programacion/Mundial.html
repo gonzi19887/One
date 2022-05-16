@@ -8,7 +8,7 @@
 </head>
 
 <body>
-  <h1>Programa Calcular IMC</h1>
+  <h1>Años del mundial:</h1>
 </body>
 <script>
 
@@ -30,14 +30,14 @@
 
     var anhoMundial = 1930;
 
+    var limite = parseInt(prompt("Ingrese el año para calcular los mundiales por año" ))
+    while(anhoMundial <=  limite){
 
-    while(anhoMundial <=  2022){
-
-        alert("Hubo mundial de la FIFA en el año " + anhoMundial);
+        imprimir("Hubo mundial de la FIFA en el año " + anhoMundial);
         anhoMundial = anhoMundial + 4;
-
-
     }
+
+    imprimir("Fin");
 </script>
 
 </html>
