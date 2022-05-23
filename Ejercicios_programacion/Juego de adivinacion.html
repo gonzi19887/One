@@ -29,20 +29,30 @@
     }
 
     var numeroSistema = Math.round(Math.random()*10);
-    var numeroUsuario = parseInt(prompt("Ingresa un numero 0 - 10"));
+    var intentos = 3;
+    var contador = 1;
 
-    if(numeroSistema == numeroUsuario){
+    while(contador <= intentos){
 
-        imprimir("Has Acertado");
+        var numeroUsuario = parseInt(prompt("Ingresa un numero 0 - 10"));
+
+        if(numeroSistema == numeroUsuario){
+    
+            imprimir("Has Acertado");
+    
+        }
+    
+        else
+        {
+    
+            imprimir("Has errado; el numero del sistema era " + numeroSistema);
+    
+        }
+
+        contador++;
 
     }
 
-    else
-    {
-
-        imprimir("Has errado; el numero del sistema era " + numeroSistema);
-
-    }
     
 </script>
 
