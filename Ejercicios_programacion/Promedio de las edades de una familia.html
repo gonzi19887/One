@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>programación</title>
+</head>
+
+<body>
+  <h1>Vamos a calcular el promedio de la edad de una familia </h1>
+</body>
+<script>
+
+    function saltarlinea() {
+            //Saltando cinco lineas
+            
+        document.write("<br>");
+        document.write("<br>");
+        document.write("<br>");
+
+    } 
+
+    function imprimir(frase) {
+            
+        document.write("<big>"+ frase +"</big>");
+        saltarlinea();
+
+    }
+
+
+    var numeroMiembros = parseInt(prompt("Ingrese la cantidad de personas que componen tú familia"));
+    var contador = 1;
+    var totalEdades = 0
+
+    while(contador <= numeroMiembros){
+
+      edad = parseInt(prompt("Ingrese la edad del familiar"));
+      totalEdades = totalEdades +  edad;
+      contador++;
+
+    }
+
+    var mediaEdades = totalEdades/numeroMiembros;
+
+    imprimir("La media de las edades es " + mediaEdades);
+    imprimir("Fin")
+  
+</script>
+
+</html>
