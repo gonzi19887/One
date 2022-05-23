@@ -38,14 +38,15 @@
 
         if(numeroSistema == numeroUsuario){
     
-            imprimir("Has Acertado");
+            alert("Has Acertado, en el intento " + intentos + "el numero pensado era "+ numeroSistema);
+            break;
     
         }
     
         else
         {
     
-            imprimir("Has errado; el numero del sistema era " + numeroSistema);
+           alert("Has errado);
     
         }
 
@@ -53,6 +54,18 @@
 
     }
 
+    if(numeroSistema == numeroUsuario){
+    
+    imprimir("Has Acertado, en el intento " + intentos );
+
+    }
+
+    else
+    {
+
+    alert("Has errado el numero pensado era "+ numeroSistema);
+
+    }
     
 </script>
 
