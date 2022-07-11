@@ -5,20 +5,21 @@ body{
 .Caja{
     width: 940px;
     margin: 0 auto;
+		text-align: right;
 }
 
-nav {
+
+nav ul{
+		position: inline;
     top: 110px;
     right: 1%;
 }
 
-nav ul{
-    display: inline;
-}
 
 nav li {
-    display: inline;
+    display: inline-flex;
     margin: 0 0 0 15px;
+		text-align: right;
 }
 
 nav a {
@@ -93,14 +94,14 @@ em strong{
 
 .items{
     font-style: italic;
-    width: 100%;
+    width: 800px;
 }
 
 ul{
-    display: inline-block;
-    margin-right: 15%;
+    display: inline;
+    margin-right: 10px;
     vertical-align: top;
-    width: 20%;   
+    width: 10%;   
 }
 
 .imagenDiferenciales{
