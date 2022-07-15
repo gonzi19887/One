@@ -27,14 +27,30 @@
 
 			<form>
 				<label for="nombreyapellido">Nombre y Apellido</label>
-				<input type="text" id="nombreyapellido">
+				<input type="text" id="nombreyapellido" class="inputPadre">
 
 				<label for="mail">Correo Electronico</label>
-				<input type="email" id="mail">
+				<input type="email" id="mail" class="inputPadre">
 
 				<label for="telefono">Telefono</label>
-				<input type="text" id="telefono">
+				<input type="text" id="telefono" class="inputPadre">
 
+				<label for="mensaje">Mensaje</label>
+				<textarea cols="70" rows="10" id="mensaje" class="inputPadre"></textarea >
+
+				<div>
+				<p class="tituloContacto">¿Como quieres que te contactemos?</p>
+				
+				<label for="radio">Notificar por email<input type="radio" value="email" name="contacto" id="radio"></label>
+				
+				<label for="msjtxt">Notificar por msm<input type="radio" value="msjtxt" name="contacto" id="msjtxt"></label>
+				
+				<label for="whatsapp">Notificar por whatsapp<input type="radio" value="whatsapp" name="contacto" id="whatsapp"></label>
+				
+				</div>
+
+				<label>Le gustaria recibir novedades de nuestra barberia?<input type="checkbox"></label>
+				
 				<input type="submit" value="Enviar" id="btnEnviar">
 			</form>
 			
