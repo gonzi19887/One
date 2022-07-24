@@ -75,8 +75,22 @@ form label{
 	margin: 20px 0;
 }
 
-#btnEnviar{
-	
+.btnEnviar{
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+	width: 48%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: #0c2252
+}
+
+.btnEnviar:hover{
+    background: darkorange;
+    transform: scale(1.1);
 }
 footer{
     background: url(imagenes/bg.jpg);
