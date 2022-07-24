@@ -71,6 +71,26 @@ form label{
 	margin: 20px 0;.
 }
 
+.horarios{
+    margin: 40px 40px;
+}
+
+thead{
+    background: #0c2252;
+    color: white;
+    font-weight: bolder;
+    padding: auto;
+}
+
+th{
+    border: 2px solid darkgray;
+    padding: 8px 15px;
+} 
+td{
+    border: 1px solid #0c2252;
+    padding: 8px 15px;
+}
+
 .checkbox{
 	margin: 20px 0;
 }
