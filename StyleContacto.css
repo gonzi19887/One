@@ -3,7 +3,7 @@ header {
     padding: 20px 0;
 }
 
-.Caja{
+.Caja {
     position: relative;
     width: 940px;
     margin: 0 auto;
@@ -27,80 +27,83 @@ nav a {
     font-size: 22px;
     text-decoration: none;
 }
-nav a:hover{
+
+nav a:hover {
     color: #AAAAAA;
     text-decoration: underline #0c2252;
 }
 
-main{
-	width: 940px;
-	margin: 0 auto;
+main {
+    width: 940px;
+    margin: 0 auto;
 }
 
-form{
-	margin: 40px 0;
+form {
+    margin: 40px 0;
 }
 
-form label{
-	color: #0c2252;
-	display: block;
-	font-size: 20px;
-	margin: 10px 0 10px;
+form label {
+    color: #0c2252;
+    display: block;
+    font-size: 20px;
+    margin: 10px 0 10px;
 }
 
-.inputPadre{
-	color: #0c2252;
-	display: block;
-	margin: 10px 0 20px;
-	padding: 10px 25px;
-	width: 50%;
+.inputPadre {
+    color: #0c2252;
+    display: block;
+    margin: 10px 0 20px;
+    padding: 10px 25px;
+    width: 50%;
 }
 
-.tituloContacto{
-	font-size: 20px;
-	font-weight: bold;
-	color: #0c2252;
-	margin: 10px 0 10px;
+.tituloContacto {
+    font-size: 20px;
+    font-weight: bold;
+    color: #0c2252;
+    margin: 10px 0 10px;
 }
 
-.horario{
-	color: #0c2252;
-	font-size: 16px;
-	font-style: italic;
-	font-weight: bolder;
-	margin: 20px 0;.
+.horario {
+    color: #0c2252;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: bolder;
+    margin: 20px 0;
+    .
 }
 
-.horarios{
+.horarios {
     margin: 10px 20px;
 }
 
-thead{
+thead, tfoot {
     background: #0c2252;
     color: white;
     font-weight: bolder;
     padding: auto;
 }
 
-th{
+th {
     border: 2px solid darkgray;
     padding: 8px 15px;
-} 
-td{
+}
+
+td {
     border: 1px solid #0c2252;
     padding: 8px 15px;
 }
 
-.checkbox{
-	margin: 20px 0;
+.checkbox {
+    margin: 20px 0;
 }
 
-.btnEnviar{
+.btnEnviar {
     border: none;
     border-radius: 5px;
     transition: 1s all;
     cursor: pointer;
-	width: 48%;
+    width: 48%;
     padding: 15px 0;
     font-size: 18px;
     font-weight: bold;
@@ -108,17 +111,18 @@ td{
     background: #0c2252
 }
 
-.btnEnviar:hover{
+.btnEnviar:hover {
     background: darkorange;
     transform: scale(1.1);
 }
-footer{
+
+footer {
     background: url(imagenes/bg.jpg);
     padding: 40px;
     text-align: center;
 }
 
-.copyright{
+.copyright {
     color: #AAAAAA;
     font-size: smaller;
     margin: 20px;
